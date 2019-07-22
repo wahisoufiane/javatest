@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>
+			Users | Create
+		</title>
+	</head>
+	<body>
+		<center>
+			<h1>Les utilisateurs</h1>
+			<table border="1">
+				<div th:each="user : ${users}" >
+					<tr th:text="${user}">
+						<td   >
+						
+						</td>
+					</tr>	
+					<br/>
+				</div>
+				
+			</table>
+		</center>
+		
+	</body>
+</html>
